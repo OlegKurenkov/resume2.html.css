@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.avatar {
+  width: 200px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border: 2px solid grey;
+  border-radius: 60px;
+}
+
+.card p {
+  font-size: small;
+  font-weight: bold;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.work {
+  padding: 10px 10px;
+  background: pink;
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+
+.table {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.table th,
+tr :nth-child() {
+  color: violet;
+}
+.hobby {
+  padding-left: 20px;
+  margin-top: 20px;
+  background: blueviolet;
+  border: 2px solid grey;
+  border-radius: 25px;
+}
+
+.social {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+  background: rgb(11, 83, 11);
+  border: 2px solid grey;
+  border-radius: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+}
+
+.btn {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(245, 239, 239);
+  cursor: pointer;
+  border: 2px solid grey;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  padding-bottom: 2px;
+  color: gray;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px 10px 0;
+  margin-bottom: 20px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  padding-left: 30px;
+}
